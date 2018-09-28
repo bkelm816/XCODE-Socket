@@ -27,7 +27,7 @@
 		A1E4C66F215EA0EB00480951 /* XCODE-Socket */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "XCODE-Socket"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E4C672215EA0EB00480951 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A1E4C679215EA10F00480951 /* Socket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Socket.cpp; sourceTree = "<group>"; };
-		A1E4C67A215EA10F00480951 /* Socket.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Socket.hpp; sourceTree = "<group>"; };
+		A1E4C67A215EA10F00480951 /* Socket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Socket.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			children = (
 				A1E4C672215EA0EB00480951 /* main.cpp */,
 				A1E4C679215EA10F00480951 /* Socket.cpp */,
-				A1E4C67A215EA10F00480951 /* Socket.hpp */,
+				A1E4C67A215EA10F00480951 /* Socket.h */,
 			);
 			path = "XCODE-Socket";
 			sourceTree = "<group>";
