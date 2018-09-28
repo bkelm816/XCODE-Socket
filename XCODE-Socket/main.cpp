@@ -11,10 +11,12 @@
 
 int main(int argc, const char * argv[]) {
     // insert code here...
+    int dPort = 10024;
+    int sPort = 10027;
+    std::string address = "localhost";
+    UDPImplement::UDP UDPConnect(dPort, sPort, address );
     
-    UDPImplement::UDP UDPConnect(10024, 10027, "localhost");
     
-    
-    std::cout << UDPConnect.GetDestPort();
+    //UDPConnect.GetDestPort();
     return 0;
 }

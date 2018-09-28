@@ -27,7 +27,11 @@ namespace UDPImplement
             m_destAddress = destAddress;
         }
         
-        int GetSrcPort();
+        int GetSrcPort()
+        {
+            return m_srcPort;
+        }
+
         int GetDestPort();
         
     private:

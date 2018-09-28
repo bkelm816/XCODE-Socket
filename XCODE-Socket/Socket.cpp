@@ -9,8 +9,4 @@
 #include "Socket.h"
 
 
-int UDPImplement::UDP::GetSrcPort()
-{
-    return m_srcPort;
-}
 
